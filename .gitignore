@@ -1,0 +1,35 @@
+# Ignorar archivos de configuración del entorno
+.env
+.env.local
+.env.*.local
+
+# Ignorar el directorio de dependencias de Composer
+/vendor/
+
+# Ignorar archivos de caché y log
+/storage/*
+!storage/app/
+!storage/app/public/
+!storage/framework/
+!storage/logs/
+
+# Ignorar directorios de caché y archivos temporales
+/cache/
+tmp/
+
+# Ignorar archivos de configuración del IDE
+.idea/
+.vscode/
+
+# Ignorar archivos de Composer
+composer.lock
+
+# Ignorar archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de compilación y binarios
+*.log
+*.swp
+*.bak
+*.tmp
